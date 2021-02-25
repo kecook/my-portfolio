@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AboutMe from './comps/AboutMe';
-import ContactPage from './comps/ContactPage';
 import Projects from './comps/Projects';
 import Navbar from './comps/layout/Navbar';
+import Home from './comps/Home';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route exact path='/contact' component={ContactPage} />
+          <Route exact path='/' component={Home} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/aboutme' component={AboutMe} />
         </Switch>

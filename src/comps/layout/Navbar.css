@@ -1,0 +1,11 @@
+.navbar {
+  justify-content: space-evenly;
+  border: 5px solid red;
+  width: 100%;
+  display: flex;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar-wrapper {
+  flex-direction: column;
+}
