@@ -1,11 +1,46 @@
 .navbar {
   justify-content: space-evenly;
-  border: 5px solid red;
+  /* border: 2px solid red; */
   width: 100%;
-  display: flex;
-  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .navbar-wrapper {
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.banner {
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Amatic SC', cursive;
+  /* border: 2px solid rebeccapurple; */
+  font-size: 4rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.icons {
+  /* border: 2px solid greenyellow; */
+  width: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  align-content: space-around;
+}
+
+.githubIcon,
+.linkedinIcon,
+.about,
+.projects {
+  justify-self: center;
+  align-self: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.linkHome {
+  text-decoration: none;
+}
+
+.menuWrapper {
+  justify-self: center;
+  align-self: center;
 }

@@ -1,0 +1,17 @@
+.aboutMe {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.textSection {
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  padding: 4%;
+  background-image: linear-gradient(#7f7fd5, #86a8e7, #91eae4);
+  opacity: 0.9;
+}
+
+.textSection:hover {
+  box-shadow: 0 52px 74px rgb(0 0 0/12%);
+  transform: translate3d(0, -5px, 0);
+}
