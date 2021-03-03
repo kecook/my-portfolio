@@ -37,13 +37,14 @@ const Projects = () => {
           application.
         </p>
         <p className='gitHubLink'>
-          Visit the Shoppies website or repo on GitHub:
+          Visit the Shoppies
           <a
             href='https://my-shoppies.netlify.app'
             className='githubFinderWebSite'
           >
-            Shoppies
+            website
           </a>
+          or repo on GitHub.
           <a href='https://github.com/kecook/Shoppies' className='githubIcon'>
             <GitHubIcon color='primary' />
           </a>
@@ -69,13 +70,14 @@ const Projects = () => {
           of the account like user avatar, location, and number of public repos.
         </p>
         <p className='gitHubLink'>
-          Visit the Github Finder website or repo on GitHub
+          Visit the Github Finder{' '}
           <a
             href='https://speak-memory-github-finder.netlify.app'
-            classname='githubFinderWebSite'
+            className='githubFinderWebSite'
           >
-            GitHub Finder
-          </a>
+            website
+          </a>{' '}
+          or repo on GitHub
           <a
             href='https://github.com/kecook/search_github'
             className='githubIcon'
