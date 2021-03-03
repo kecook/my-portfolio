@@ -85,3 +85,9 @@
   grid-row-start: 1;
   max-width: 10%;
 }
+.dot_15 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  justify-self: right;
+  align-self: flex-end;
+}

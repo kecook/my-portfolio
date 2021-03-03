@@ -1,0 +1,24 @@
+import {useSate, useEffect} from 'react';
+
+const useProjects=(project)=>{
+    const {apps useApps} = useSate([
+        project: [
+      {
+        id:'1',
+        title: 'Shoppies',
+        subText: 'December 2020',
+        about:
+          'Shoppies is a movie search website. It uses the Open Movie Database api to search for movies titles that match the users parameters. The user is able to select their favourite movies for nomination. Users are able to update the nomination list as many times as they like, but the list can contain a maximum of five movies. This project was created to the specifications of a Shopify application. ',
+      },
+      {
+        id:'2',
+        title: 'GitHub Finder',
+        subText: 'August 2020',
+        about:
+          'GitHub Finder is a web application to search the users of GitHub. It utilizes the GitHub api and returns a list of GitHub users that match the search criteria. When the user selects a specific GitHub account they get the detail of the account like user avatar, location, and number of public repos.',
+      },
+    ],
+    ])
+    return{apps}
+}
+export default useProjects;

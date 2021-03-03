@@ -1,39 +1,44 @@
 import React from 'react';
-import './AboutMe.css';
+import './About.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <div className='about'>
-      <div className='textSection'>
-        <h3>About Me</h3>
-        <p>
-          <strong>Hi, my name is Kate</strong> and I'm a web developer.Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Enim facilisis
-          gravida neque convallis. Mi tempus imperdiet nulla malesuada. Non arcu
-          risus quis varius quam quisque id diam vel. Blandit cursus risus at
-          ultrices mi tempus. Amet luctus venenatis lectus magna fringilla urna
-          porttitor rhoncus dolor. Dapibus ultrices in iaculis nunc sed augue.
-          Non blandit massa enim nec dui nunc mattis.
-        </p>
+    <div className='aboutMe'>
+      <h3 className='title'>About Me</h3>
+      <p className='descriptionAbout'>
+        <strong>Hi, my name is Kate</strong> and I’m a web developer with a
+        passion for creating. I’ve always loved making things. It first started
+        with sewing, then needle point, then knitting.{' '}
+      </p>
+      <p className='descriptionAbout'>
+        Five years agon I decided to take on a new challenge, apply my passion
+        for creating to subjects that were completely foreign to me. I went back
+        to high school to relearn math, a subject that I used to think I would
+        never enjoy. While I was in adult high school someone suggested that I
+        give web development a try.
+      </p>
 
-        <p>
-          Morbi tristique senectus et netus et. Faucibus nisl tincidunt eget
-          nullam non nisi est. Ornare arcu odio ut sem nulla pharetra diam sit
-          amet. Tortor dignissim convallis aenean et tortor at. Eget lorem dolor
-          sed viverra. Vitae aliquet neullamcorper sit amet risus nullam. Sit
-          amet nisl suscipit adipiscing bibendum est. Vitae congue eu consequat
-          ac felis donec et odio pellentesque. Nisl tincidunt eget nullam non
-          nisi. Convallis tellus id interdum velit laoreet. Et malesuada fames
-          ac turpis egestas integer eget aliquet. Venenatis urna cursus eget
-          cilisi nullam vehicula ipsum a. Find me on LinkedIn and GitHub
-          <GitHubIcon color='primary' />
-          <LinkedInIcon color='primary' />
-        </p>
-      </div>
+      <p className='descriptionAbout'>
+        I’d never thought much about web dev. I didn’t know how websites were
+        made, or for that matter, how the Internet worked. The last time I’d
+        done anything close to computer programming it was very very dry. But, I
+        thought math sucked and was wrong about that, so why not try coding. I
+        took some intro to programming classes at Juno College, then took a web
+        dev bootcamp at BrainStation and have been practicing my JavaScript
+        skills ever since. Coding is like crafting but digital, it utilizes the
+        same type of problem solving. For now, my focus is frontend development
+        using the React library but I’m always open to learning new languages.
+      </p>
+      <p className='descriptionAbout'>
+        Prior to development I studied English Literature in university, managed
+        a craft store, and worked with autistic teens. Besides crafting and
+        coding I like to garden and spend time with my family. I can be reached
+        through LinkedIn and Github.
+        <GitHubIcon color='primary' />
+        <LinkedInIcon color='primary' />
+      </p>
     </div>
   );
 };

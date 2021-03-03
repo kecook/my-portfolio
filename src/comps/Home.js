@@ -43,7 +43,6 @@ const Home = () => {
         transition={{ repeat: Infinity, duration: 10 }}
         src={Dot_6}
       />
-      <ContactPage />
       <motion.img
         className='dot dot_5'
         variants={fadeRight}
