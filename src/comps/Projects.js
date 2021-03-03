@@ -23,7 +23,7 @@ const Projects = () => {
         <img src={ShoppiesSearch} className='photo photoOne'></img>
         <p className='description'>
           Shoppies is a movie search website. It uses the Open Movie Database
-          api to search for movies titles that match the users parameters.
+          API to search for movie titles that match the users parameters.
         </p>
         <img src={Shoppies} className='photo photoTwo'></img>
         <p className='description'>
@@ -33,12 +33,17 @@ const Projects = () => {
         </p>
         <img src={ShoppiesBanner} className='photo photoThree'></img>
         <p className='description'>
-          Users are able to update the nomination list as many times as they
-          like, but the list can contain a maximum of five movies. This project
-          was created to the specifications of a Shopify application.
+          This project was created to the specifications of a Shopify
+          application.
         </p>
         <p className='gitHubLink'>
-          Visit the Shoppies repo on GitHub
+          Visit the Shoppies website or repo on GitHub:
+          <a
+            href='https://my-shoppies.netlify.app'
+            className='githubFinderWebSite'
+          >
+            Shoppies
+          </a>
           <a href='https://github.com/kecook/Shoppies' className='githubIcon'>
             <GitHubIcon color='primary' />
           </a>
@@ -54,17 +59,23 @@ const Projects = () => {
         </div>
         <img src={GithubSearch} className='photo photoFour'></img>
         <p className='description'>
-          GitHub Finder is a web application to search the users of GitHub. It
-          utilizes the GitHub api and returns a list of GitHub users that match
-          the search criteria.
+          GitHub Finder is a web application for searching the users of GitHub.
+          It utilizes the GitHub API and returns a list of GitHub users that
+          match the search criteria.
         </p>
         <img src={GitHubProfile} className='photo photoFive'></img>
         <p className='description'>
-          When the user selects a specific GitHub account they get the detail of
-          the account like user avatar, location, and number of public repos.
+          When the user selects a specific GitHub account they get the details
+          of the account like user avatar, location, and number of public repos.
         </p>
         <p className='gitHubLink'>
-          Visit the Github Finder repo on GitHub
+          Visit the Github Finder website or repo on GitHub
+          <a
+            href='https://speak-memory-github-finder.netlify.app'
+            classname='githubFinderWebSite'
+          >
+            GitHub Finder
+          </a>
           <a
             href='https://github.com/kecook/search_github'
             className='githubIcon'
