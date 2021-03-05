@@ -9,8 +9,10 @@
 }
 
 .title {
-  text-align: right;
+  /* text-align: center; */
   /* padding: 2em 3em 1em; */
+  align-self: center;
+  justify-self: center;
 }
 
 .descriptionAbout {

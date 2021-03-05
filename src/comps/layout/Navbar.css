@@ -47,3 +47,7 @@
   justify-self: center;
   align-self: center;
 }
+
+.linkDots {
+  width: 25px;
+}

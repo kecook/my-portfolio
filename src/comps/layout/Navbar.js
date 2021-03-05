@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { motion } from 'framer-motion';
+import Dot_23 from '../../assets/Dot_023.png';
+import Dot_17 from '../../assets/Dot_017.png';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -21,9 +23,19 @@ const Navbar = () => {
         </h2>
 
         <div className='icons'>
+          <motion.img
+            src={Dot_23}
+            className='linkDots'
+            whileHover={{ scale: 1.2 }}
+          ></motion.img>
           <Link to='/about' className='about'>
             About
           </Link>
+          <motion.img
+            src={Dot_17}
+            className='linkDots'
+            whileHover={{ scale: 1.2 }}
+          ></motion.img>
           <Link to='/projects' className='projects'>
             Projects
           </Link>
