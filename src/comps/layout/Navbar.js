@@ -16,7 +16,7 @@ const Navbar = () => {
 
         <h2 className='banner'>
           <Link to='/' className='linkHome'>
-            Speak Memory
+            Kate Cook
           </Link>
         </h2>
 
