@@ -5,14 +5,15 @@ import About from './comps/About';
 import Projects from './comps/Projects';
 import Navbar from './comps/layout/Navbar';
 import Home from './comps/Home';
-import ProjectSummary from './comps/layout/ProjectSummary/ProjectSummary';
-
+import ProjectSummaryMap from './ProjectSummaryMap/projectSummaryMap';
+import ProjectSummary from './ProjectSummary/ProjectSummary';
 function App() {
   return (
     <div className='App'>
       <Router>
         <Navbar />
-        <ProjectSummary />
+        {/* <ProjectSummary /> */}
+        <ProjectSummaryMap />
 
         <Switch>
           <Route exact path='/' component={Home} />

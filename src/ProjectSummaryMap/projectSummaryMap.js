@@ -1,13 +1,14 @@
 import React from 'react';
-
-import projectSummaryData from '../../data/projectSummaryData';
-import projectSummary from '../comps/layout/ProjectSummary/ProjectSummary';
+import ProjectSummary from '../ProjectSummary/ProjectSummary';
+import data from '../comps/data/data';
 
 const ProjectSummaryMap = () => {
+  let singleProject = data;
   return (
     <div className='aboutMe'>
-      //project summary data.map not recieving the data as an array no props
-      named exports vs default export
+      {singleProject.map((singleProject) => (
+        <ProjectSummary singleProject={singleProject} key={singleProject.id} />
+      ))}
     </div>
   );
 };

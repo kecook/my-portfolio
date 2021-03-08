@@ -1,6 +1,6 @@
 import GitHubProfile from '../../assets/GitHubProfile.png';
 import Shoppies from '../../assets/ShoppiesBanner.png';
-const data = [
+let data = [
   {
     id: '1',
     title: 'Shoppies',
