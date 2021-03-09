@@ -1,0 +1,55 @@
+img {
+  max-width: 70%;
+}
+
+.projectsWrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.shoppies {
+  border-radius: 20px;
+  padding: 3em 3em 0em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.photo {
+  border-radius: 20px;
+  padding: 3em 3em 4em;
+  background: linear-gradient(45deg, #b4e0ed, #c1d7de);
+  opacity: 0.9;
+  align-self: center;
+  justify-self: center;
+}
+.photoOne {
+  background: linear-gradient(45deg, #b4e0ed, #c1d7de);
+}
+.photoTwo {
+  background: linear-gradient(45deg, #c1d7de, #c3d3d0);
+}
+.photoThree {
+  background: linear-gradient(45deg, #c3d3d0, #c2d1c7);
+}
+
+.photo:hover {
+  box-shadow: 0 52px 74px rgb(0 0 0/12%);
+  transform: translate3d(0, -5px, 0);
+}
+
+.description {
+  padding: 3em 3em 4em;
+  align-self: center;
+  justify-self: center;
+}
+
+.gitHubLink {
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  text-align: Left;
+  padding: 3em 3em 1em;
+}

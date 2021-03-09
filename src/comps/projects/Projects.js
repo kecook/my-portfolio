@@ -1,9 +1,9 @@
 import React from 'react';
-import Shoppies from '../assets/Shoppies.png';
-import ShoppiesSearch from '../assets/ShoppiesSearch.png';
-import ShoppiesBanner from '../assets/ShoppiesBanner.png';
-import GitHubProfile from '../assets/GitHubProfile.png';
-import GithubSearch from '../assets/GithubSearch.png';
+import Shoppies from '../../assets/Shoppies.png';
+import ShoppiesSearch from '../../assets/ShoppiesSearch.png';
+import ShoppiesBanner from '../../assets/ShoppiesBanner.png';
+import GitHubProfile from '../../assets/GitHubProfile.png';
+import GithubSearch from '../../assets/GithubSearch.png';
 import { motion } from 'framer-motion';
 import './Projects.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
