@@ -1,4 +1,6 @@
 .navbar {
+  font-family: 'Raleway', sans-serif;
+
   justify-content: space-evenly;
   width: 100%;
 }
@@ -6,15 +8,14 @@
 .navbar-wrapper {
   display: grid;
   grid-template-columns: 75% 25%;
-  color: #0e3039;
+  /* color: #0e3039; */
 }
 .banner {
-  /* font-family: 'Sacramento', cursive; */
-  font-family: 'Amatic SC', cursive;
-  /* border: 2px solid rebeccapurple; */
   font-size: 4rem;
   justify-self: center;
   align-self: center;
+  /* color: #0b032d; */
+  color: #ffb997;
 }
 
 .icons {
@@ -31,6 +32,7 @@
   align-self: center;
   padding: 2px;
   text-decoration: none;
+  color: navy;
 }
 .about:hover {
   border-bottom: 2px solid #f08ed2;
@@ -41,6 +43,7 @@
 
 .linkHome {
   text-decoration: none;
+  color: navy;
 }
 
 .menuWrapper {
