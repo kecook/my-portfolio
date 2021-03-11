@@ -22,14 +22,14 @@ const Menu = ({ menu, onClose }) => {
               whileHover={{ scale: 1.3, color: '#db4372' }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <Link to='/'>Home</Link>
+              <Link to='/shoppies'>Shoppies</Link>
             </motion.li>
 
             <motion.li
               whileHover={{ scale: 1.3, color: '#db4372' }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <Link to='/projects'>Projects</Link>
+              <Link to='/'>GitHub Search</Link>
             </motion.li>
             <motion.li
               whileHover={{ scale: 1.3, color: '#db4372' }}

@@ -2,17 +2,19 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { motion } from 'framer-motion';
+import Menu from '../layout/Menu';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
+  const { menu, setMenu } = useState(false);
 
   return (
     <nav className='navbar'>
       <div className='navbar-wrapper'>
-        {/* <motion.div className='menuWrapper' whileHover={{ scale: 1.2 }}>
+        <motion.div className='menuWrapper' whileHover={{ scale: 1.2 }}>
           <MenuIcon onClick={() => setMenu(true)} />
           <Menu onClose={() => setMenu(false)} menu={menu} />
-        </motion.div> */}
+        </motion.div>
 
         <h2 className='banner'>
           <Link to='/' className='linkHome'>
