@@ -1,12 +1,4 @@
 /* Global Styles */
-:root {
-  --primary-color: #a9d8c8;
-  --dark-color: #1d4e89;
-  --light-color: #e69ea1;
-  --danger-color: #db4372;
-  --success-color: #a9d8c8;
-  --scuba-color: #dfba47;
-}
 
 * {
   box-sizing: border-box;

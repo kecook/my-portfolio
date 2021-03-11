@@ -15,7 +15,9 @@ const Home = () => {
     <div className='homeWrapper'>
       <div className='homeGrid'>
         <div className='HeroText'>
-          <h1>Hello, my name is Kate. I'm a React developer.</h1>
+          <h1 className='heroTitle'>
+            Hello, my name is Kate. I'm a React developer.
+          </h1>
         </div>
         <div className='heroImg'>
           <motion.img
