@@ -1,16 +1,15 @@
 import React from 'react';
-import data from '../../data/photoData';
+import projectData from '../../data/data';
 import DisplayPhoto from './DisplayPhoto';
 import '../home/Home.css';
 
 const DisplayMultiPhotos = () => {
-  let photoData = data;
-
   return (
     <div className='projectTwo'>
       {/* if (photoData.main === true : */}
-      {photoData.map((photoData) => (
-        <DisplayPhoto key={photoData.id} photoData={photoData} />
+      {/* taking the info from data js that's called projectData and taking each individual object and assigning it the name singleProject */}
+      {projectData.map((singleProject) => (
+        <DisplayPhoto key={singleProject.id} photoData={singleProject} />
       ))}
     </div>
   );
