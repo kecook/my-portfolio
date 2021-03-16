@@ -6,11 +6,11 @@ const DisplayPhoto = ({ photoData }) => {
 
   console.log(photoData, 'here');
   return (
-    <div className='photoSection'>
+    <div>
       <div className='projectOne'>
         <Link to={link} className='link'>
-          <h3 className='projectOneTitle'>{title}</h3>
-          <div className='photoWrapper'>
+          <h3 className='z'>{title}</h3>
+          <div className='z'>
             <img className='projectOnePhoto' src={mainPhoto.photo}></img>
           </div>
         </Link>

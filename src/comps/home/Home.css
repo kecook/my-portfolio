@@ -87,8 +87,8 @@ p {
   display: grid;
   padding: 2rem;
   border-radius: 20px;
-  background: linear-gradient(to right bottom, #b9bb75, #aadeed, #b2cad2);
-  background-blend-mode: soft-light, screen;
+  /* background: linear-gradient(to right bottom, #b9bb75, #aadeed, #b2cad2);
+  background-blend-mode: soft-light, screen; */
   /* background: linear-gradient(45deg, #ed7b8b, #f3a89e, #f0a856); */
   /* background: linear-gradient(to right, #d5e4bc, #91a965, #9bb967); */
 }

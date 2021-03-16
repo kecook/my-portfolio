@@ -3,6 +3,9 @@ import GitHubProfile from '../../assets/GitHubProfile.png';
 import GithubSearch from '../../assets/GithubSearch.png';
 import './GitHubFinder.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import ProjectThumbNail from '../projects/ProjectThumbNail';
+import DisplayMultiPhotos from '../displayPhoto/DisplayMultiPhotos';
+import MultiProjectPar from '../projects/MultiProjectPar';
 
 const GitHubFinder = () => {
   return (
@@ -12,6 +15,9 @@ const GitHubFinder = () => {
           <h3>GitHub Finder</h3>
         </span>
         <h4>Designer|Developer 2020</h4>
+        <h2>adding in map here</h2>
+        <MultiProjectPar />
+        <h2>map ended</h2>
       </div>
       <img src={GithubSearch} className='photo photoFour'></img>
       <p className='description'>
