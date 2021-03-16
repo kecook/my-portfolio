@@ -7,7 +7,13 @@ import Navbar from './comps/navbar/Navbar';
 import Home from './comps/home/Home';
 import GitHubFinder from './comps/gitHubFinder/GitHubFinder';
 import Shoppies from './comps/shoppies/Shoppies';
-import { shoppiesPath, githubPath } from './constansts/constants';
+import {
+  homePath,
+  projectsPath,
+  aboutPath,
+  shoppiesPath,
+  githubPath,
+} from './constants/constants';
 
 function App() {
   return (
@@ -16,9 +22,9 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/about' component={About} />
+          <Route exact path={homePath} component={Home} />
+          <Route exact path={projectsPath} component={Projects} />
+          <Route exact path={aboutPath} component={About} />
           <Route exact path={shoppiesPath} component={Shoppies} />
           <Route exact path={githubPath} component={GitHubFinder} />
         </Switch>

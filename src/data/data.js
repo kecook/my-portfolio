@@ -3,7 +3,7 @@ import GithubSearch from '../assets/GithubSearch.png';
 import Shoppies from '../assets/Shoppies.png';
 import ShoppiesBanner from '../assets/ShoppiesBanner.png';
 import ShoppiesSearch from '../assets/ShoppiesSearch.png';
-import { shoppiesPath, githubPath } from '../constansts/constants';
+import { shoppiesPath, githubPath } from '../constants/constants';
 
 const projectData = [
   {
