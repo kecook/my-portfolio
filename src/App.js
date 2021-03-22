@@ -5,8 +5,8 @@ import About from './comps/about/About';
 import Projects from './comps/projects/Projects';
 import Navbar from './comps/navbar/Navbar';
 import Home from './comps/home/Home';
-import GitHubFinder from './comps/gitHubFinder/GitHubFinder';
-import Shoppies from './comps/shoppies/Shoppies';
+import ProjectThumbNail from './comps/projects/ProjectThumbNail';
+import data from './data/data';
 import {
   homePath,
   projectsPath,
@@ -14,6 +14,7 @@ import {
   shoppiesPath,
   githubPath,
 } from './constants/constants';
+import Footer from './comps/footer/Footer';
 
 function App() {
   return (
@@ -25,9 +26,14 @@ function App() {
           <Route exact path={homePath} component={Home} />
           <Route exact path={projectsPath} component={Projects} />
           <Route exact path={aboutPath} component={About} />
-          <Route exact path={shoppiesPath} component={Shoppies} />
-          <Route exact path={githubPath} component={GitHubFinder} />
+          <Route exact path={shoppiesPath}>
+            <ProjectThumbNail singleProject={data[0]} />
+          </Route>
+          <Route exact path={githubPath}>
+            <ProjectThumbNail singleProject={data[1]} />
+          </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

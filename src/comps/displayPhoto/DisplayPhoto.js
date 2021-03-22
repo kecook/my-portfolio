@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './DisplayPhoto.css';
 const DisplayPhoto = ({ photoData }) => {
   const { title, photos, link } = photoData;
   const mainPhoto = photos.find((photoObject) => photoObject.main === true);
 
   console.log(photoData, 'here');
   return (
-    <div>
-      <div className='projectOne'>
+    <div className='project'>
+      <div className='projectWrapper'>
         <Link to={link} className='link'>
-          <h3 className='z'>{title}</h3>
-          <div className='z'>
-            <img className='projectOnePhoto' src={mainPhoto.photo}></img>
-          </div>
+          <h3 className='title'>{title}</h3>
+
+          <img className='projectPhoto' src={mainPhoto.photo}></img>
         </Link>
       </div>
     </div>

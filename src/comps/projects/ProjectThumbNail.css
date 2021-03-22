@@ -1,0 +1,71 @@
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.descriptionThumbNail {
+  padding: 1em 3em 4em;
+}
+
+.gitHubLink {
+  align-self: center;
+  justify-self: center;
+}
+
+.titleThumbNail {
+  text-align: Left;
+  padding: 3em 3em 1em;
+}
+
+.projectThumbNail {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(25deg, #b9bb75, #aadeed, #b2cad2);
+  background-blend-mode: soft-light, screen;
+}
+.projectWrapper {
+  margin: 0 auto;
+}
+
+.photoThumbNail {
+  border-radius: 20px;
+  padding: 3em 3em 4em;
+  /* background: linear-gradient(45deg, #b4e0ed, #c1d7de);
+  opacity: 0.9; */
+  /* align-self: center;
+    justify-self: center; */
+  width: 100%;
+}
+/* .photo:hover {
+  box-shadow: 0 52px 74px rgb(0 0 0/12%);
+  transform: translate3d(0, -5px, 0);
+} */
+
+.title {
+  text-align: Left;
+  padding: 3em 3em 1em;
+}
+
+.projectPhoto {
+  align-content: center;
+  justify-content: center;
+  height: 400px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+/* .project:hover {
+  box-shadow: 0 52px 74px rgb(0 0 0/12%);
+  transform: translate3d(0, -5px, 0);
+} */
+
+.link {
+  text-decoration: none;
+}
+.photoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

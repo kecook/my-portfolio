@@ -45,7 +45,7 @@ p {
   max-height: 150px;
 }
 
-.projectSection {
+/* .projectSection {
   align-items: center;
   padding: 2rem 0 2rem 0;
 }
@@ -57,10 +57,10 @@ p {
   margin-bottom: 2rem;
   border-radius: 20px;
   background: linear-gradient(25deg, #b9bb75, #aadeed, #b2cad2);
-  background-blend-mode: soft-light, screen;
-  /* background: linear-gradient(45deg, #ed7b8b, #f3a89e, #f0a856); */
-  /* background: linear-gradient(25deg, #d5e4bc, #91a965, #9bb967); */
-}
+  background-blend-mode: soft-light, screen; */
+/* background: linear-gradient(45deg, #ed7b8b, #f3a89e, #f0a856); */
+/* background: linear-gradient(25deg, #d5e4bc, #91a965, #9bb967); */
+/* }
 
 .projectOnePhoto,
 .projectTwoPhoto {
@@ -82,22 +82,22 @@ p {
   padding: 0rem 2rem 2rem 2rem;
 }
 
-.projectTwo {
-  /* align-self: center; */
-  display: grid;
+.projectTwo { */
+/* align-self: center; */
+/* display: grid;
   padding: 2rem;
-  border-radius: 20px;
-  /* background: linear-gradient(to right bottom, #b9bb75, #aadeed, #b2cad2);
+  border-radius: 20px; */
+/* background: linear-gradient(to right bottom, #b9bb75, #aadeed, #b2cad2);
   background-blend-mode: soft-light, screen; */
-  /* background: linear-gradient(45deg, #ed7b8b, #f3a89e, #f0a856); */
-  /* background: linear-gradient(to right, #d5e4bc, #91a965, #9bb967); */
-}
+/* background: linear-gradient(45deg, #ed7b8b, #f3a89e, #f0a856); */
+/* background: linear-gradient(to right, #d5e4bc, #91a965, #9bb967); */
+/* } */
 
-.link {
+/* .link {
   text-decoration: none;
 }
 .photoWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
