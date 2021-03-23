@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './comps/about/About';
-import Projects from './comps/projects/Projects';
 import Navbar from './comps/navbar/Navbar';
 import Home from './comps/home/Home';
 import ProjectThumbNail from './comps/projects/ProjectThumbNail';
@@ -14,7 +13,6 @@ import {
   shoppiesPath,
   githubPath,
 } from './constants/constants';
-import Footer from './comps/footer/Footer';
 
 function App() {
   return (
@@ -24,7 +22,6 @@ function App() {
 
         <Switch>
           <Route exact path={homePath} component={Home} />
-          <Route exact path={projectsPath} component={Projects} />
           <Route exact path={aboutPath} component={About} />
           <Route exact path={shoppiesPath}>
             <ProjectThumbNail singleProject={data[0]} />
@@ -33,7 +30,6 @@ function App() {
             <ProjectThumbNail singleProject={data[1]} />
           </Route>
         </Switch>
-        <Footer />
       </Router>
     </div>
   );

@@ -1,11 +1,8 @@
 import React from 'react';
 import './ProjectThumbNail.css';
-import { Link } from 'react-router-dom';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const ProjectThumbNail = ({ singleProject }) => {
-  const { title, description, text, photos } = singleProject;
+  const { title, description, text, photos, key } = singleProject;
   // console.log(singleProject, 'here');
 
   return (
@@ -26,7 +23,7 @@ const ProjectThumbNail = ({ singleProject }) => {
 
             {text[index] && (
               <p className='descriptionThumbNail '>
-                {text[index]} key={text.index}
+                {text[index]} {text.index}
               </p>
             )}
 

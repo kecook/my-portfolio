@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 import './Navbar.css';
 
 const Navbar = () => {
-  // const { menu, setMenu } = useState(false);
-  const [menu, setMenu] = useState(false);
-
   return (
     <nav className='navbar'>
       <div className='navbar-wrapper'>
@@ -19,9 +19,12 @@ const Navbar = () => {
           <Link to='/about' className='about'>
             About
           </Link>
-          <Link to='/projects' className='projects'>
-            Projects
-          </Link>
+          <a href='//https://github.com/kecook'>
+            <GitHubIcon color='primary' />
+          </a>
+          <a href='https://www.linkedin.com/in/katelin-cook/'>
+            <LinkedInIcon color='primary' />
+          </a>
         </div>
       </div>
     </nav>
