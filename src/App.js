@@ -8,7 +8,6 @@ import ProjectThumbNail from './comps/projects/ProjectThumbNail';
 import data from './data/data';
 import {
   homePath,
-  projectsPath,
   aboutPath,
   shoppiesPath,
   githubPath,

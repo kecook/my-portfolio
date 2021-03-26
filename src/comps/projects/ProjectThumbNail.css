@@ -69,3 +69,25 @@ p {
   align-items: center;
   justify-content: center;
 }
+.linkHomeBottom{
+  color:navy;
+}
+/* .linkHomeBottom:hover {
+    border-bottom: 2px solid #f08ed2;
+  } */
+
+.iconsBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.webSite{
+  padding-right:1rem;
+}
+.ghIcon{
+  padding-right: 5rem;
+}
+.ghIcon:hover{
+  border-bottom: 2px solid #f08ed2;
+}

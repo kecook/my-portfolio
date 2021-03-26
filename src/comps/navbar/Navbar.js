@@ -19,10 +19,10 @@ const Navbar = () => {
           <Link to='/about' className='about'>
             About
           </Link>
-          <a href='//https://github.com/kecook'>
+          <a href='//https://github.com/kecook' className='iconLink'>
             <GitHubIcon color='primary' />
           </a>
-          <a href='https://www.linkedin.com/in/katelin-cook/'>
+          <a href='https://www.linkedin.com/in/katelin-cook/' className='iconLink'>
             <LinkedInIcon color='primary' />
           </a>
         </div>
