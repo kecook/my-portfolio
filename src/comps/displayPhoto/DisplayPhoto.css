@@ -8,6 +8,9 @@
   background: linear-gradient(25deg, #b9bb75, #aadeed, #b2cad2);
   background-blend-mode: soft-light, screen;
 }
+.project:nth-child(2) {
+  background: linear-gradient(to right bottom, #b9bb75, #aadeed, #b2cad2);
+}
 .projectWrapper {
   margin: 0 auto;
   padding: 2rem 0rem;
@@ -18,8 +21,6 @@
   padding: 3em 3em 4em;
   background: linear-gradient(45deg, #b4e0ed, #c1d7de);
   opacity: 0.9;
-  /* align-self: center;
-  justify-self: center; */
   width: 100%;
 }
 .photo:hover {

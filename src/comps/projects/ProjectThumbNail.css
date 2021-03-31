@@ -33,16 +33,9 @@ p {
 .photoThumbNail {
   border-radius: 20px;
   padding: 3em 3em 4em;
-  /* background: linear-gradient(45deg, #b4e0ed, #c1d7de);
-  opacity: 0.9; */
-  /* align-self: center;
-    justify-self: center; */
+
   width: 100%;
 }
-/* .photo:hover {
-  box-shadow: 0 52px 74px rgb(0 0 0/12%);
-  transform: translate3d(0, -5px, 0);
-} */
 
 .title {
   text-align: Left;
@@ -56,10 +49,6 @@ p {
   border-radius: 20px;
   vertical-align: middle;
 }
-/* .project:hover {
-  box-shadow: 0 52px 74px rgb(0 0 0/12%);
-  transform: translate3d(0, -5px, 0);
-} */
 
 .link {
   text-decoration: none;
@@ -69,25 +58,36 @@ p {
   align-items: center;
   justify-content: center;
 }
-.linkHomeBottom{
-  color:navy;
-}
-/* .linkHomeBottom:hover {
-    border-bottom: 2px solid #f08ed2;
-  } */
-
-.iconsBottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.linkHomeBottom {
+  color: navy;
 }
 
-.webSite{
-  padding-right:1rem;
+.iconsBottom {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 3em 3em 1em;
 }
-.ghIcon{
-  padding-right: 5rem;
+.justIcons {
+  grid-column-start: 2;
+  width: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
 }
-.ghIcon:hover{
+
+.webSite {
+  text-decoration: none;
+}
+
+.ghIcon:hover,
+.webSite:hover {
   border-bottom: 2px solid #f08ed2;
+}
+.linkHomeBottom {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-decoration: none;
+}
+.linkHomeBottom:hover {
+  color: #f08ed2;
 }

@@ -13,7 +13,7 @@ const About = () => {
         with sewing, then needle point, then knitting.{' '}
       </p>
       <p className='descriptionAbout'>
-        Five years agon I decided to take on a new challenge, apply my passion
+        Five years ago I decided to take on a new challenge, apply my passion
         for creating to subjects that were completely foreign to me. I went back
         to high school to relearn math, a subject that I used to think I would
         never enjoy. While I was in adult high school someone suggested that I

@@ -13,7 +13,7 @@ const projectData = [
     text: [
       'Shoppies is a movie search website.',
       'It uses the Open Movie Database API to search for movie titles that match the users parameters. The user is able to select their favourite movies for nomination.',
-      'This project was created to the specifications of a Shopify application.Visit the Shoppies repo on GitHut',
+      'This project was created to the specifications of a Shopify application.Visit the Shoppies repo on GitHub',
     ],
     photos: [
       { main: true, photo: Shoppies },
@@ -27,8 +27,8 @@ const projectData = [
       },
     ],
     link: shoppiesPath,
-    website: 'www.my-shoppies.netlify.app/',
-    repository: 'www.github.com/kecook/Shoppies',
+    website: 'https://www.my-shoppies.netlify.app/',
+    repository: 'https://www.github.com/kecook/Shoppies',
   },
 
   {
@@ -50,8 +50,8 @@ const projectData = [
       },
     ],
     link: githubPath,
-    website: 'www.speak-memory-github-finder.netlify.app/',
-    repository: 'www.github.com/kecook/Shoppies',
+    website: 'https://www.speak-memory-github-finder.netlify.app/',
+    repository: 'https://www.github.com/kecook/Shoppies',
   },
 ];
 

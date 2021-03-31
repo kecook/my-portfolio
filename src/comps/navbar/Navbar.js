@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -22,7 +22,10 @@ const Navbar = () => {
           <a href='//https://github.com/kecook' className='iconLink'>
             <GitHubIcon color='primary' />
           </a>
-          <a href='https://www.linkedin.com/in/katelin-cook/' className='iconLink'>
+          <a
+            href='https://www.linkedin.com/in/katelin-cook/'
+            className='iconLink'
+          >
             <LinkedInIcon color='primary' />
           </a>
         </div>
