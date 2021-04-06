@@ -13,7 +13,7 @@ const projectData = [
     text: [
       'Shoppies is a movie search website.',
       'It uses the Open Movie Database API to search for movie titles that match the users parameters. The user is able to select their favourite movies for nomination.',
-      'This project was created to the specifications of a Shopify application.Visit the Shoppies repo on GitHub',
+      'This project was created to the specifications of a Shopify application. Visit the Shoppies repo on GitHub',
     ],
     photos: [
       { main: true, photo: Shoppies },

@@ -32,12 +32,19 @@ const About = () => {
         using the React library but I’m always open to learning new languages.
       </p>
       <p className='descriptionAbout'>
-        Prior to development I studied English Literature in university, managed
-        a craft store, and worked with autistic teens. Besides crafting and
-        coding I like to garden and spend time with my family. I can be reached
-        through LinkedIn and Github.
-        <GitHubIcon color='primary' />
-        <LinkedInIcon color='primary' />
+        Prior to web development I studied English Literature in university,
+        managed a craft store, and worked with autistic teens. Besides crafting
+        and coding I like to garden and spend time with my family. I can be
+        reached through LinkedIn and Github.
+        <a href='https://www.github.com/kecook' className='iconLink'>
+          <GitHubIcon color='primary' />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/katelin-cook/'
+          className='iconLink'
+        >
+          <LinkedInIcon color='primary' />
+        </a>
       </p>
     </div>
   );

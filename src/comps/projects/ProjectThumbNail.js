@@ -5,21 +5,22 @@ import { homePath } from '../../constants/constants';
 
 const ProjectThumbNail = ({ singleProject }) => {
   const {
+    id,
     title,
     description,
     text,
     photos,
-    key,
+    index,
     website,
     repository,
   } = singleProject;
-
+  console.log('here', singleProject);
   return (
     <div className='projectThumbNail'>
       <h3 className='titleThumbNail'>{title}</h3>
       <h4 className='titleThumbNail'>{description}</h4>
 
-      {photos.map((singlePhoto, index, key) => {
+      {photos.map((singlePhoto) => {
         return (
           <div>
             <img

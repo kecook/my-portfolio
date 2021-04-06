@@ -40,6 +40,9 @@
 .iconLink:hover {
   border-bottom: 2px solid #f08ed2;
 }
+.iconLink {
+  padding: 0 2px;
+}
 
 .linkHome {
   text-decoration: none;

@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to='/about' className='about'>
             About
           </Link>
-          <a href='//https://github.com/kecook' className='iconLink'>
+          <a href='https://www.github.com/kecook' className='iconLink'>
             <GitHubIcon color='primary' />
           </a>
           <a
