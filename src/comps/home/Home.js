@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Shoppies from '../../assets/Shoppies.png';
 import './Home.css';
 import { motion } from 'framer-motion';
 import Dot_23 from '../../assets/Dot_023.png';
-import GitHubSearch from '../../assets/GithubSearch.png';
+import DisplayMultiPhotos from '../displayPhoto/DisplayMultiPhotos';
+
 const Home = () => {
   const fadeRight = {
     hidden: { opacity: 0, y: -100 },
@@ -33,24 +32,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className='projectSection'>
-        <div className='projectOne'>
-          <Link to='/shoppies' className='link'>
-            <h3 className='projectOneTitle'>Shoppies</h3>
-            <div className='photoWrapper'>
-              <img className='projectOnePhoto' src={Shoppies}></img>
-            </div>
-          </Link>
-        </div>
-        <div className='projectTwo'>
-          <Link to='/githubfinder' className='link'>
-            <h3 className='projectTwoTitle'>GitHub Finder</h3>
-            <div className='photoWrapper'>
-              <img className='projectTwoPhoto' src={GitHubSearch}></img>
-            </div>
-          </Link>
-        </div>
-      </div>
+      <DisplayMultiPhotos />
     </div>
   );
 };

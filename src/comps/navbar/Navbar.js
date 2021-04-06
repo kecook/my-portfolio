@@ -1,19 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 import './Navbar.css';
-import { motion } from 'framer-motion';
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
-
   return (
     <nav className='navbar'>
       <div className='navbar-wrapper'>
-        {/* <motion.div className='menuWrapper' whileHover={{ scale: 1.2 }}>
-          <MenuIcon onClick={() => setMenu(true)} />
-          <Menu onClose={() => setMenu(false)} menu={menu} />
-        </motion.div> */}
-
         <h2 className='banner'>
           <Link to='/' className='linkHome'>
             Kate Cook
@@ -24,9 +19,15 @@ const Navbar = () => {
           <Link to='/about' className='about'>
             About
           </Link>
-          <Link to='/projects' className='projects'>
-            Projects
-          </Link>
+          <a href='https://www.github.com/kecook' className='iconLink'>
+            <GitHubIcon color='primary' />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/katelin-cook/'
+            className='iconLink'
+          >
+            <LinkedInIcon color='primary' />
+          </a>
         </div>
       </div>
     </nav>
