@@ -20,12 +20,12 @@ const ProjectThumbNail = ({ singleProject }) => {
       <h3 className='titleThumbNail'>{title}</h3>
       <h4 className='titleThumbNail'>{description}</h4>
 
-      {photos.map((singlePhoto) => {
+      {photos.map((singlePhoto, index) => {
         return (
-          <div>
+          <div key={`div-${index}`}>
             <img
               src={singlePhoto.photo}
-              key={singlePhoto.id}
+              key={index}
               className='photoThumbNail'
             />
 
