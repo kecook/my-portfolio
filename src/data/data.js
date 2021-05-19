@@ -28,7 +28,7 @@ const projectData = [
     ],
     link: shoppiesPath,
     website: 'https://my-shoppies.netlify.app/',
-    repository: 'https://www.github.com/kecook/Shoppies',
+    repository: 'https://github.com/kecook/Shoppies',
   },
 
   {
@@ -51,7 +51,7 @@ const projectData = [
     ],
     link: githubPath,
     website: 'https://speak-memory-github-finder.netlify.app/',
-    repository: 'https://www.github.com/kecook/Shoppies',
+    repository: 'https://github.com/kecook/Shoppies',
   },
 ];
 
