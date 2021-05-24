@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import About from './comps/About';
-import Projects from './comps/Projects';
-import Navbar from './comps/layout/Navbar';
-import Home from './comps/Home';
+import About from './comps/about/About';
+import Navbar from './comps/navbar/Navbar';
+import Home from './comps/home/Home';
+import ProjectThumbNail from './comps/projects/ProjectThumbNail';
+import data from './data/data';
+import {
+  homePath,
+  aboutPath,
+  shoppiesPath,
+  githubPath,
+} from './constants/constants';
 
 function App() {
   return (
@@ -13,9 +20,14 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/about' component={About} />
+          <Route exact path={homePath} component={Home} />
+          <Route exact path={aboutPath} component={About} />
+          <Route exact path={shoppiesPath}>
+            <ProjectThumbNail singleProject={data[0]} />
+          </Route>
+          <Route exact path={githubPath}>
+            <ProjectThumbNail singleProject={data[1]} />
+          </Route>
         </Switch>
       </Router>
     </div>

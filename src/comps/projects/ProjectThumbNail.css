@@ -1,0 +1,93 @@
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.descriptionThumbNail {
+  padding: 1em 3em 4em;
+}
+
+.gitHubLink {
+  align-self: center;
+  justify-self: center;
+}
+
+.titleThumbNail {
+  text-align: Left;
+  padding: 0em 3em 1em;
+}
+
+.projectThumbNail {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(25deg, #b9bb75, #aadeed, #b2cad2);
+  background-blend-mode: soft-light, screen;
+}
+.projectWrapper {
+  margin: 0 auto;
+}
+
+.photoThumbNail {
+  border-radius: 20px;
+  padding: 3em 3em 4em;
+
+  width: 100%;
+}
+
+.title {
+  text-align: Left;
+  padding: 3em 3em 1em;
+}
+
+.projectPhoto {
+  align-content: center;
+  justify-content: center;
+  height: 400px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: none;
+}
+.photoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkHomeBottom {
+  color: navy;
+}
+
+.iconsBottom {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 3em 3em 1em;
+}
+.justIcons {
+  grid-column-start: 2;
+  width: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.webSite {
+  text-decoration: none;
+}
+
+.ghIcon:hover,
+.webSite:hover {
+  border-bottom: 2px solid #f08ed2;
+}
+.linkHomeBottom {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-decoration: none;
+}
+.linkHomeBottom:hover {
+  color: #f08ed2;
+}
