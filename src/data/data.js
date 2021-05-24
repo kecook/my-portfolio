@@ -27,7 +27,7 @@ const projectData = [
       },
     ],
     link: shoppiesPath,
-    website: 'https://www.gmail.com',
+    website: 'https://my-shoppies.netlify.app/',
     repository: 'https://www.github.com/kecook/Shoppies',
   },
 
