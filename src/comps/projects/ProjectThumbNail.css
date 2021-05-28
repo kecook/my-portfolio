@@ -91,3 +91,20 @@ p {
 .linkHomeBottom:hover {
   color: #f08ed2;
 }
+@media (max-width: 750px) {
+  .projectPhoto {
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projectPhoto {
+    height: 200px;
+  }
+}
+
+@media (max-width: 420px) {
+  .projectPhoto {
+    height: 100px;
+  }
+}
